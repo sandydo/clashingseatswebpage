@@ -1,0 +1,29 @@
+body {
+  background-color: rgba(40, 10, 0, 1);
+}
+
+p {
+    color: rgba(230, 255, 220, 1);
+}
+
+#logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 35vw;
+}
+
+#CSHeading {
+  font-size: 70px;
+  margin: 0;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  /*font-family: 'Rochester', cursive;*/
+  font-family: 'Nothing You Could Do', cursive;
+  /* font-family: 'Michroma', sans-serif; */
+}
