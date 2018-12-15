@@ -1,5 +1,5 @@
 body {
-  background-color: rgba(40, 10, 0, 1);
+  background-color: rgba(25, 5, 0, 1);
 }
 
 p {
@@ -12,11 +12,11 @@ p {
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    width: 35vw;
+    height: 40vh;
 }
 
 #CSHeading {
-  font-size: 7vw;
+  font-size: 12vh;
   margin: 0;
   position: absolute;
   top: 20%;
@@ -24,7 +24,11 @@ p {
   margin-right: -50%;
   transform: translate(-50%, -50%);
   /*font-family: 'Rochester', cursive;*/
-  font-family: 'Nothing You Could Do', cursive;
+  /*font-family: 'Nothing You Could Do', cursive;*/
+  /*font-family: 'Indie Flower', cursive;
+  font-family: 'Anonymous Pro', monospace;*/
+  font-family: 'Cutive Mono', monospace;
+  /*font-family: 'Slabo 27px', serif;*/
   /* font-family: 'Michroma', sans-serif; */
 
 }
@@ -39,6 +43,6 @@ p {
 
 .links{
   position: relative;
-  margin: 20px;
-  width: 3vw;
+  padding: 20px;
+  height: 8vh;
 }
