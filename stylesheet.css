@@ -21,10 +21,9 @@ p {
   margin: 0;
   top: 25%;
   left: 50%;
-  margin-right: -500%;
+  margin-right: -50%;
   transform: translate(-50%, -50%);
   font-family: 'Major Mono Display', monospace;
-
 }
 
 #linkbar{
@@ -37,8 +36,8 @@ p {
 
 .links{
   position: relative;
-  padding: 20px;
-  height: 8vh;
+  padding: 2vh;
+  height: 5vh;
 }
 
 
