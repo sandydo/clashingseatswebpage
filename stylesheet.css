@@ -16,27 +16,21 @@ p {
 }
 
 #CSHeading {
-  font-size: 12vh;
-  margin: 0;
   position: absolute;
-  top: 20%;
+  font-size: 7vh;
+  margin: 0;
+  top: 25%;
   left: 50%;
-  margin-right: -50%;
+  margin-right: -500%;
   transform: translate(-50%, -50%);
-  /*font-family: 'Rochester', cursive;*/
-  /*font-family: 'Nothing You Could Do', cursive;*/
-  /*font-family: 'Indie Flower', cursive;
-  font-family: 'Anonymous Pro', monospace;*/
-  font-family: 'Cutive Mono', monospace;
-  /*font-family: 'Slabo 27px', serif;*/
-  /* font-family: 'Michroma', sans-serif; */
+  font-family: 'knewave';
 
 }
 
 #linkbar{
   position: absolute;
   left: 50%;
-  top:85%;
+  top: 78%;
   margin: 0;
   transform: translate(-50%, -50%);
 }
@@ -45,4 +39,12 @@ p {
   position: relative;
   padding: 20px;
   height: 8vh;
+}
+
+
+
+
+@font-face {
+font-family: "knewave";
+src: url("fonts/knewave-master/knewave.ttf");
 }
