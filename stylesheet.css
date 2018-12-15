@@ -23,7 +23,7 @@ p {
   left: 50%;
   margin-right: -500%;
   transform: translate(-50%, -50%);
-  font-family: 'knewave';
+  font-family: 'Major Mono Display', monospace;
 
 }
 
