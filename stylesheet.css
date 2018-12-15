@@ -16,7 +16,7 @@ p {
 }
 
 #CSHeading {
-  font-size: 70px;
+  font-size: 7vw;
   margin: 0;
   position: absolute;
   top: 20%;
@@ -26,4 +26,19 @@ p {
   /*font-family: 'Rochester', cursive;*/
   font-family: 'Nothing You Could Do', cursive;
   /* font-family: 'Michroma', sans-serif; */
+
+}
+
+#linkbar{
+  position: absolute;
+  left: 50%;
+  top:85%;
+  margin: 0;
+  transform: translate(-50%, -50%);
+}
+
+.links{
+  position: relative;
+  margin: 20px;
+  width: 3vw;
 }
