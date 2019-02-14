@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="styleSheet.css" type="text/css"/>
+      <link rel="icon" href="graphics/icon.png" type="image/png" >
+      <title>Trial And Error Sounds</title>
+    </head>
+    <body onload="init()">
+
+      <!--
+      <div class="previewLayer" id="previewLayer">
+        <button onclick="changeZIndex('previewLayer', '0')">
+          <!-- <img id="XofPreviewImageGraphic" src="graphics/xButton.svg" alt="Selfhtml" draggable="false"/>
+          <h3 style="color:white; font-size: 3em;">Enter</h3>
+        </button>
+        <img id="previewImage" src="Images/TrialAndErrorBackGround.jpg">
+      </div>
+      <!--<div id="aBlackCurtain"></div>-->
+
+      <div class="snapper-content">
+        <div>
+          <img src="Images/TrialErrorLogo.png" id="trialErrorLogo" />
+            <ul>
+              <li>
+                <a href="#" style="color:white;" onclick="changeZIndex('temporalInfoLayer', '20'); return false;">Info</a>
+              </li>
+              <li>
+                <a href="#" style="color:white;" onclick="changeZIndex('temporalContactLayer', '20'); return false;">Kontakte</a>
+              </li>
+              <li>
+                <a style="color:white;" href="https://www.dropbox.com/sh/4foerxhag736hlp/AABi3n6UPRXZwYV317fin3NYa?dl=0">Downloads</a>
+              </li>
+            </ul>
+        </div>
+      </div>
+
+      <div class="temporalLayer" id="temporalInfoLayer" >
+        <button onclick="changeZIndex('temporalInfoLayer', '0'); ">
+          <img id="XbuttonGraphic" src="graphics/xButton.svg" alt="Selfhtml" draggable="false"/>
+        </button>
+      <div class="container">
+        <div class="scrollContainer">
+          <div class="content">
+            <h3 style="color:white;font-size:1em;"><strong>Das Projekt</strong></h3>
+            <p>
+              Trial & Error Sounds ist eine Gruppe von Musikern aus Leipzig und Berlin,
+              die sich dem Experimentieren mit neuen Sounds verschrieben
+              haben. Die Bande formierte sich im Prozess
+              der <a href="https://www.facebook.com/Nofearnoloathinginnolasvegas/?fref=ts">Theaterproduktion Angst & Schrecken</a>, welche in der
+              Spielzeit 15/16 im <a href="http://www.neues-schauspiel-leipzig.de">Neuen Schauspiel Leipzig</a> mit live eingespielter
+              Musik gezeigt wurde. Hierbei wurden deutsche Volkslieder aus der Spätromantik
+              so arrangiert und interpretiert, dass stehts eine Emotion musikalisch
+              transportiert wird um den Zuschauer im Theater an die Szenerie heranzuführen.
+            </p>
+            <h3 style="color:white;font-size:1em;"><strong>Die Musik</strong></h3>
+            <p>
+              Im Juli 2016 durften die Trial & Error Sounds ihre Volkslieder in Korrespondenz
+              mit der  <a href="http://www.htwk-leipzig.de/de/">HTWK Leipzig</a>
+              aufnehmen und stellt am 11.11. 2016 ihre Platte "Goldenes Rauschen" im Neuen Schauspiel Leipzig vor.
+              Goldenes Rauschen präsentiert deutsche Voklslieder in neuem Stil, bei dem
+              die gewohnten Assoziationen der bekannten Lieder gebrochen werden sollen um
+              die romantischen Klänge in neuem Stil zu erfahren.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      </div>
+
+
+      <div class="temporalLayer" id="temporalContactLayer">
+      <button onclick="changeZIndex('temporalContactLayer', '0')">
+        <img id="XbuttonGraphic" src="graphics/xButton.svg" alt="Selfhtml" draggable="false"/>
+      </button>
+
+      <div class="container">
+        <div class="scrollContainer">
+          <div class="content">
+            <table>
+              <!-- Thomas -->
+              <tr>
+                <td rowspan="3"></td>
+                <td><strong>Thomas Schnake</strong></td>
+              </tr>
+              <tr>
+                <td><i>Arragments</i></td>
+              </tr>
+              <tr class="spaceUnder">
+                <td><a href="mailto:t.schnake@gmail.com">Email: t.schnake@gmail.com</a></td>
+              </tr>
+              <!-- Anne -->
+              <tr>
+                <td rowspan="3"></td>
+                <td><strong>Anne Jahnke</strong></td>
+              </tr>
+              <tr>
+                <td><i>Aufnahme und Postproduktion <br>(mit freundlicher Unterstützung der HTWK Leipzig)</i></td>
+              </tr>
+              <tr class="spaceUnder">
+                <td><a href="www.linkedin.com/in/anne-jahnke">@linkedin</td>
+              </tr>
+              <tr>
+                <td>  <h5>Musiker</h5></td>
+              </tr>
+
+              <!-- Falko-->
+              <tr>
+                <td rowspan="3"></td>
+                <td><strong>Ánthro Poi</strong></td>
+              </tr>
+              <tr>
+                <td><i>Bass, Gitarre</i></td>
+              </tr>
+              <tr class="spaceUnder">
+                <td><a href="mailto:falko.ruedrich@hotmail.de">Email: falko.ruedrich@hotmail.de</a></td>
+              </tr>
+              <!--Ben-->
+              <tr>
+                <td rowspan="3"></td>
+                <td><strong>Ben Rouka</strong></td>
+              </tr>
+              <tr>
+                <td><i>Percussion</i></td>
+              </tr>
+              <tr class="spaceUnder">
+                <td><a href="mailto:benrouka@hotmail.com">Email: benrouka@hotmail.com</a>,<br> <a href="https://www.facebook.com/ben.rouka">Facebook</a></td>
+              </tr>
+              <!-- Georg -->
+              <tr>
+                <td rowspan="2"></td>
+                <td><strong>Georg Fleischfresser</strong></td>
+              </tr>
+              <tr class="spaceUnder">
+                <td><i>Piano, Saxophon</i></td>
+              </tr>
+              <!-- Leo-->
+              <tr>
+                <td rowspan="3"></td>
+                <td><strong>Lelo La</strong></td>
+              </tr>
+              <tr>
+                <td><i>Cello</i></td>
+              </tr>
+              <tr class="spaceUnder">
+                <td><a href="https://www.facebook.com/leonard.scholer">Facebook</a></td>
+              </tr>
+
+              <!-- Torben-->
+              <tr>
+                <td rowspan="3"></td>
+                <td><strong>Torben Jaeckel</strong></td>
+              </tr>
+              <tr>
+                <td><i>Drums und gute Laune</i></td>
+              </tr>
+              <tr class="spaceUnder">
+                <td><a href="mailto:torben.jaeckel@me.com">Email: torben.jaeckel@me.com</a></td>
+              </tr>
+
+
+              <tr>
+                <td>  <h5>Gesang</h5></td>
+              </tr>
+
+
+
+              <!-- Marie -->
+              <tr>
+                <td rowspan="3"></td>
+                <td><strong>Marie Bergel</strong></td>
+              </tr>
+              <tr>
+                <td><i>Gesang/Chor (Solo:Mond)</i></td>
+              </tr>
+              <tr class="spaceUnder">
+                <td><a href="mailto:marie.bergel@googlemail.com">Email: marie.bergel@googlemail.com</a></td>
+              </tr>
+              <!-- Friede -->
+              <tr>
+                <td rowspan="3"></td>
+                <td><strong>Friederike Biebl</strong></td>
+              </tr>
+              <tr>
+                <td><i>Gesang</i></td>
+              </tr>
+              <tr class="spaceUnder">
+                <td><a href="mailto:fbiebl@gmail.com">Email: fbiebl@gmail.com</a>, <br> <a href="https://www.instagram.com/f2theb/">Instagram</a></td>
+              </tr>
+              <!-- Hendrik -->
+              <tr>
+                <td rowspan="2"></td>
+                <td><strong>Hendrik Brause</strong></td>
+              </tr>
+              <tr class="spaceUnder">
+                <td><i>Gesang</i></td>
+              </tr>
+
+              <!-- Karl -->
+              <tr>
+                <td rowspan="2"></td>
+                <td><strong>Karl Schlinger</strong></td>
+              </tr>
+              <tr class="spaceUnder">
+                <td><i>Gesang</i></td>
+              </tr>
+              <tr>
+                <td>  <h5>Drumrum</h5></td>
+              </tr>
+
+              <!-- Krischaan-->
+              <tr>
+                <td rowspan="3"></td>
+                <td><strong>Christian Albrecht</strong></td>
+              </tr>
+              <tr>
+                <td><i>Design</i></td>
+              </tr>
+              <tr class="spaceUnder">
+                <td><a href="mailto:ChristianA.photos@gmail.com">Email: ChristianA.photos@gmail.com/a></td>
+              </tr>
+
+
+            </table>
+          </div>
+        </div>
+      </div>
+
+      </div>
+
+
+      <div id="content">
+        <!-- The Menue -->
+        <button id="menuButton" onclick="menuButtonClicked();">
+          <div><img id="menuButtonGraphic" src="graphics/menu_button.svg" alt="Selfhtml" draggable="false"/></div>
+        </button>
+
+        <!-- The player interaction -->
+        <button class="music-button" id="button-backward" onclick="backwardClicked();" >
+          <div ><img class="playerButtonGraphic" src="graphics/backward_button03.svg" alt="Selfhtml" draggable="false"/></div>
+        </button>
+
+        <button class="music-button" id="button-forward" onclick="forwardClicked();" >
+          <div><img class="playerButtonGraphic" src="graphics/forward_button03.svg" alt="Selfhtml" draggable="false"/></div>
+        </button>
+
+        <button id="button-play" onclick="playPauseClicked();" >
+          <div id="playButtonImage"><img class="playerButtonGraphic" src="graphics/play_button03.svg" alt="Selfhtml" draggable="false"/></div>
+          <div id="pauseButtonImage" ><img class="playerButtonGraphic" src="graphics/pause_button03.svg" alt="Selfhtml" draggable="false"/></div>
+        </button>
+
+        <div id="timeline">
+  	        <div id="playhead"></div>
+        </div>
+
+        <!-- The Track divs-->
+        <!-- Intro -->
+        <div class="trackWrapper">
+          <audio id="track0">
+            <source src="mp3/Intro.mp3" type="audio/mpeg">
+            <source src="ogg/Intro.ogg" type="audio/ogg">
+            Your browser does not support the audio element.
+          </audio>
+          <img class="trackImage" src="Images/Intro.jpg" >
+          <p class="trackTitle">Intro</p>
+        </div>
+
+        <!--Übern See -->
+        <div class="trackWrapper">
+          <audio id="track1">
+            <source src="mp3/übernSee.mp3" type="audio/mpeg">
+            <source src="ogg/übernSee.ogg" type="audio/ogg">
+              Your browser does not support the audio element.
+          </audio>
+          <img class="trackImage" src="Images/übernsee.jpg" >
+          <p class="trackTitle">Übern See</p>
+        </div> -->
+
+        <!--Alle Vögel-->
+        <div class="trackWrapper">
+          <audio id="track2">
+            <source src="ogg/AlleVögel.ogg" type="audio/ogg" />
+            <source src="mp3/AlleVögel.mp3" type="audio/mpeg" />
+            <source src="wav/AlleVögel.wav" type="audio/wav" />
+              Your browser does not support the audio element.
+          </audio>
+          <img class="trackImage" src="Images/AlleVögel.jpg" >
+          <p class="trackTitle">Alle Vögel</p>
+        </div>
+
+        <!--Noizeshit 1 -->
+        <div class="trackWrapper">
+          <audio id="track3">
+            <source src="mp3/NoizeShit1.mp3" type="audio/mpeg">
+          </audio>
+          <img class="trackImage" src="Images/GR1.jpg" >
+          <p class="trackTitle">Goldenes Rauschen</p>
+        </div>
+
+        <!--Häschen-->
+        <div class="trackWrapper">
+          <audio id="track4">
+            <source src="mp3/Häschen.mp3" type="audio/mpeg">
+            <source src="ogg/Häschen.ogg" type="audio/ogg">
+              <source src="wav/Häschen.wav" type="audio/wav">
+              Your browser does not support the audio element.
+          </audio>
+          <img class="trackImage" src="Images/häschen.jpg" >
+          <p class="trackTitle">Häschen</p>
+        </div>
+
+        <!--Noiseshit 2
+        <div class="trackWrapper">
+          <audio id="track5">
+            <source src="mp3/NoizeShit2.mp3" type="audio/mpeg">
+          </audio>
+          <img class="trackImage" src="Images/GR2.jpg" >
+          <p class="trackTitle">Goldenes Rauschen 2</p>
+        </div> -->
+
+        <!--Maikäfer-->
+        <div class="trackWrapper">
+          <audio id="track5">
+            <source src="mp3/Maikäfer.mp3" type="audio/mpeg">
+            <source src="ogg/Maikäfer.ogg" type="audio/ogg">
+              <source src="wav/Maikäfer.wav" type="audio/wav">
+              Your browser does not support the audio element.
+          </audio>
+          <img class="trackImage" src="Images/Maikäfer.jpg" >
+          <p class="trackTitle">Maikäfer</p>
+        </div>
+
+        <!--Der Mond-->
+        <div class="trackWrapper">
+          <audio id="track6">
+            <source src="mp3/DerMond.mp3" type="audio/mpeg">
+            <source src="ogg/DerMond.ogg" type="audio/ogg">
+              <source src="wav/DerMond.wav" type="audio/wav">
+              Your browser does not support the audio element.
+          </audio>
+          <img class="trackImage" src="Images/DerMond.jpg" >
+          <p class="trackTitle">Der Mond</p>
+        </div>
+
+        <!--Outro-->
+        <div class="trackWrapper">
+          <audio id="track7">
+            <source src="mp3/Bossa.mp3" type="audio/mpeg">
+            <source src="ogg/Bossa.ogg" type="audio/ogg">
+              <source src="wav/Bossa.wav" type="audio/wav">
+              Your browser does not support the audio element.
+          </audio>
+          <img class="trackImage" src="Images/outro.jpg" >
+          <p class="trackTitle">Outro/Bossa</p>
+        </div>
+      </div>
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="controlPageInteraction.js"></script>
+    <script src="snap.js"></script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-96165955-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+  </html>

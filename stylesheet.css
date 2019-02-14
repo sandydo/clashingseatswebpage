@@ -33,6 +33,23 @@ p {
   margin: 0;
   transform: translate(-50%, -50%);
 }
+#otherProj {
+  position: absolute;
+  left: 50%;
+  top: 86%;
+  margin: 0;
+  transform: translate(-50%, -50%);
+  font-size: 3vh;
+  font-family: 'Major Mono Display', monospace;
+}
+
+a {
+    text-decoration: none;
+
+}
+a:link, a:visited, a:hover, a:active {
+  color: rgba(230, 255, 220, 1);
+}
 
 .links{
   position: relative;
