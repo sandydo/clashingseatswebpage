@@ -3,12 +3,12 @@ body {
 }
 
 p {
-    color: rgba(230, 255, 220, 1);
+    color:rgba(230, 255, 220, 1);
 }
 
 #logo {
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
@@ -17,9 +17,10 @@ p {
 
 #CSHeading {
   position: absolute;
+  color:rgba(230, 255, 220, 1);
   font-size: 8vh;
   margin: 0;
-  top: 30%;
+  top: 40%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
